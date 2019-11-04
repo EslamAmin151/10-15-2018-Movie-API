@@ -1,7 +1,7 @@
 let movieList = document.querySelector('.movieList')
 let movieDetail = document.querySelector('.movieDetail')
 
-const API_KEY = "afdcb997"
+const API_KEY = ""
 
 fetch('http://www.omdbapi.com/?s=batman&apikey='+API_KEY)
 .then(function(response){
